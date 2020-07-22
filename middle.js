@@ -27,15 +27,12 @@ const eqArrays = function(array1, array2) {
 const middle = function(array) {
   let middleArray = [];
   if (array.length <= 2) {
-    console.log("Case 1:", "Length -", array.length);
     return middleArray;
   } else if (array.length % 2 === 0) {
-    console.log("Case 2", "Length -", array.length);
     middleArray.push(array[array.length / 2 - 1]);
     middleArray.push(array[array.length / 2]);
     return middleArray;
   } else if (array.length % 2 !== 0) {
-    console.log("Case 3", "Length -", array.length);    
     middleArray.push(array[(array.length - 1) / 2]);
     return middleArray;
   }
