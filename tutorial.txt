@@ -1,0 +1,7 @@
+vim tutorial.txt
+tutorial.txt
+di
+daksdoak
+dlsakdoak
+laksd
+
