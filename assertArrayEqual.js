@@ -6,7 +6,4 @@ const assertArrayEqual = function(array1, array2) {
   } return "✅✅✅ Assertion Passed: the arrays are identical!";
 };
 
-console.log(assertArrayEqual([1, 2, 3], [1, 2, 3]));
-console.log(assertArrayEqual([1, 2, 3], [1, 2, "3"]));
-console.log(assertArrayEqual([1, 2, 3], [1, 2, 3, 4]));
-console.log(assertArrayEqual([1, 2, 3], [1, 2]));
+module.exports = assertArrayEqual;
