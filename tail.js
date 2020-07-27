@@ -4,3 +4,5 @@ const tail = function(array) {
 };
 
 module.exports = tail;
+
+const result3 = ["Yo Yo", "Lighthouse", "Labs", "Toronto", "Ontario", "Canada"];
