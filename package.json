@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@dhnascimento/lotide",
   "version": "1.0.0",
   "description": "Lotide Lighthouse Labs assignment",
   "main": "assertArrayEqual.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/dhnascimento/lotide.git"
   },
-  "author": "",
+  "author": "dhnascimento",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dhnascimento/lotide/issues"
